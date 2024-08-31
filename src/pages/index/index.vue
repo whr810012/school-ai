@@ -13,7 +13,7 @@
 			return {
 				title: 'Hello'
 			}
-		},
+		},asd
 		onLoad() {
 
 		},
