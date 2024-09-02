@@ -1,10 +1,104 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "uni-app",
 				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "主页",
+				"enablePullDownRefresh": true
+			}	
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "全部商品"
+			}
+		},
+		{
+			"path": "pages/spot/spot",
+			"style": {
+				"navigationBarTitleText": "位置详情"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/storeImage/storeImage",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path" : "pages/homemap/homemap",
+			"style" : 
+			{
+				"navigationBarTitleText" : "校园导航",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/ai/ai",
+			"style" : 
+			{
+				"navigationBarTitleText" : " ",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/addgoods/addgoods",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品发布",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/myinfor/myinfor",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		{
+			"path" : "pages/myorder/myorder",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/addinfor/addinfor",
+			"style" : 
+			{
+				"navigationBarTitleText" : "填写信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/admin/admin",
+			"style" : 
+			{
+				"navigationBarTitleText" : "管理中心",
+				"enablePullDownRefresh" : false
 			}
 		}
 	],
@@ -13,5 +107,24 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#292C35",
+		"backgroundColor": "rgba(255, 255, 255, 0.92)",
+		"borderStyle": "white",
+
+
+		"list": [{
+				"pagePath": "pages/home/home"
+
+			},
+			{
+					"pagePath": "pages/addgoods/addgoods"
+			
+				},
+			{
+				"pagePath": "pages/myinfor/myinfor"
+			}
+		]
 	}
 }

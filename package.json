@@ -1,5 +1,5 @@
 {
-	"name": "macao-sell",
+	"name": "second-hand",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -68,9 +68,19 @@
 		"@dcloudio/uni-quickapp-webview": "^2.0.1-alpha-36920221121001",
 		"@dcloudio/uni-stacktracey": "^2.0.1-alpha-36920221121001",
 		"@dcloudio/uni-stat": "^2.0.1-alpha-36920221121001",
+		"@escook/request-miniprogram": "^0.2.1",
 		"@vue/shared": "^3.0.0",
+		"base-64": "^1.0.0",
+		"cache-loader": "^4.1.0",
+		"coordtransform": "^2.1.2",
 		"core-js": "^2.6.5",
+		"crypto-js": "^4.2.0",
 		"flyio": "^0.6.2",
+		"image-tools": "^1.4.0",
+		"isomorphic-ws": "^5.0.0",
+		"path": "^0.12.7",
+		"sass-loader": "^8.0.2",
+		"uview-ui": "1.8.8",
 		"vue": "^2.6.10",
 		"vuex": "^3.2.0"
 	},
@@ -92,6 +102,7 @@
 		"babel-plugin-import": "^1.11.0",
 		"cross-env": "^7.0.2",
 		"jest": "^25.4.0",
+		"node-sass": "^4.14.1",
 		"postcss-comment": "^2.0.0",
 		"vue-template-compiler": "^2.6.10"
 	},
